@@ -38,14 +38,14 @@ lot_summary <- suspension_coil %>% group_by(Manufacturing_Lot) %>% summarize(Mea
 # Technical Analysis
 # 1. In your MechaCarChallenge.RScript, write an RScript using the t.test() function to determine if the PSI across 
 # all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch.
-t.test(suspension_coil$PSI,mu=mean(suspension_coil$PSI))
+t.test(suspension_coil$PSI,mu = 1500)
 
 # 2. Next, write three more RScripts in your MechaCarChallenge.RScript using the t.test() function and its subset() 
 # argument to determine if the PSI for each manufacturing lot is statistically different from the 
 # population mean of 1,500 pounds per square inch.
   # Lot 1 Test
-t.test(subset(suspension_coil$PSI,suspension_coil$Manufacturing_Lot == "Lot1"),mu=mean(suspension_coil$PSI))
+t.test(subset(suspension_coil$PSI,suspension_coil$Manufacturing_Lot == "Lot1"),mu=1500)
   # Lot 2 Test
-t.test(subset(suspension_coil$PSI,suspension_coil$Manufacturing_Lot == "Lot2"),mu=mean(suspension_coil$PSI))
+t.test(subset(suspension_coil$PSI,suspension_coil$Manufacturing_Lot == "Lot2"),mu=1500)
   # Lot 3 Test
-t.test(subset(suspension_coil$PSI,suspension_coil$Manufacturing_Lot == "Lot3"),mu=mean(suspension_coil$PSI))
+t.test(subset(suspension_coil$PSI,suspension_coil$Manufacturing_Lot == "Lot3"),mu=1500)
