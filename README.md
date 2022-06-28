@@ -79,9 +79,27 @@ Lot 3- has a mean of 1496 and a p-value of .42. This lot, which has been shown i
 
 ## Study Design: MechaCar vs Competition
 
+Although the total MPG for MechaCar is good, how does this compare to those of its competitors. If that data can be gathered a review can be done on MPG by AutosRUs and the competitor or competitors. With gas being close to $5 per gallon (June 2022) this will be an important factor for purchasing of a vehicle. 
 
-
-
+**Metric**
+  a) MPG from Competitor and MechaCar (Dependant)
+  b) Type of Engine (Independant)
+  c) Type of Drive Train: 4x4 or 2x4 (Independant)
+  d) Hybrid Capabilities (Independant)
+  e) List could go on about features that effect the engine
+  
+  **Hypothesis**
+  
+  Null: MechaCar's MPG is competitive based on its features and performance
+  
+  Alternative: MechaCar's MPG is not competitive against its rival car makers based on ites features and performans
+  
+  **Statistical Testing**
+  
+    1) T-tests of car models
+    2) Linear regressions
+    3) Visuals, such as box plots and scatter plots to see comparisons
+  
 
 
 
